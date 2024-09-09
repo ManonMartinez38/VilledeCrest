@@ -11,7 +11,7 @@ body{
     background: color #f4eeed; ;
 }
 header {
-    padding: 20px 8%;
+    padding: 10px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,9 +21,7 @@ header {
     display: flexbox;
 }
 
-section{
-padding: 70px 8%;
-}
+
 ul {
     justify-content:center ;
     background: color #ddb7ab; 
@@ -40,4 +38,41 @@ ul li a {
     color: #999;
     transition: 0.5s;
     font-size: 14px;
+    justify-content: end;
 }
+ul li a :hover {
+  background-color: #ddb7ab;
+    padding: 15px;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;  
+}
+.home-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-section.left {
+    height: 500px;
+    width: 600px;
+
+}
+
+.ville{
+border-radius: 20px;
+}
+.riviere{
+    border-radius: 20px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    transition: 0,5s;
+    top: 600px;
+    left: 10px;
+    
+}
+.riviere:hover{
+    background-color: bisque;
+}
+
